@@ -1,0 +1,55 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+1. Ask for the input of the first number and let this number be "a"
+2. Ask for the input of the second number and let this number be "b"
+3. Add a+b using the sum of "a"+"b" to get the answer "c"
+4. Print the value of "c" from the calculation
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1.Ask for the input of a number and let this number be "a"
+2.If the denomenator is "0" then print even
+3.If the denomenator is not "0" then print odd
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+A)
+1. Ask for input of a number and let this number be "a"
+2. Ask for input of a number and let this number be "b"
+3. Ask for input of a number and let this number be "c"
+4. Ask for input of a number and let this number be "d"
+5. Ask for input of a number and let this number be "e"
+B)
+Calculate using addition "a"+"b"+"c"+"d"+"e"
+MINIMUN)
+1.Calculate the difference of "b", "C", "d" and "e" in order to determine if "a" is less than these numbers
+2. If value is TRUE then let "a" be "min"
+3. If value is FALSE then calculate the difference of "a","c","d", "e" to determine if less than "b"
+4. If value is TRUE then let "b" be "min"
+5. If value is FALSE then calculate the difference of "a","b","d","e" to determine if "c" is less than these numbers
+6.If value is TRUE then let "d" be "min"
+7. If value is FALSE then calculate the difference of "a", "b","c","e"
+If valve is TRUE then let "e" be "min"
+8. If value is FALSE then calculate the difference of "a","b","c","d" to determine if less than "e"
+MAX)
+1.Calculate the difference of "b", "C", "d" and "e" in order to determine if "a" is greater than these numbers
+2. If value is TRUE then let "a" be "max"
+3. If value is FALSE then calculate the difference of "a","c","d", "e" to determine if greater than "b"
+4. If value is TRUE then let "b" be "max"
+5. If value is FALSE then calculate the difference of "a","b","d","e" to determine if "c" is greater than these numbers
+6.If value is TRUE then let "d" be "max"
+7. If value is FALSE then calculate the difference of "a", "b","c","e"
+If valve is TRUE then let "e" be "max"
+8. If value is FALSE then calculate the difference of "a","b","c","d" to determine if greater than "e"
+
+D)
+1.Print "THE minimum of these 5 numbers is" then print the value of "min"
+2.Print "The maximum of these 5 numbers is" then print the value of "min"
+
+-- END --
